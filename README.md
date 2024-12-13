@@ -31,3 +31,35 @@ In the `Potato` class you should override the `absorb_sunlight` method. It shoul
   - The remaining sunlight_energy is split evenly between the potato's tubers.
 
 If the potato plant has no tubers, the plant receives all the energy.
+
+## Notes for the Interviewer
+
+### Delivery Notes
+
+#### THIS QUESTION IS MEANT TO BE DONE ONE WAVE AT A TIME!
+
+- Please only explain the first wave to your interviewee first. Do not discuss the second wave or have them begin implementation on it until they have the first wave fully working. Progress in this fashion for each wave.
+
+#### THE TESTS ARE HELPFUL!
+
+- Encourage your interviewee to closely look at the tests before they begin implementation.
+
+### Clarifying Questions
+
+#### Q: How should I handle invalid input? 
+A: You can assume the input will be valid.
+
+#### Q: Can I modify the Plant class?
+A: No.
+
+#### Q: Should the energies be ints or floats?
+A: Either should work for the given test cases.
+
+#### Q: Where can I learn more about potatoes?
+A: "The History and Social Influence of the Potato" by Dr. Redcliffe N. Salaman.
+
+### Hints
+
+- Make sure your candidate's classes aren't accidentally indented and inside the Plant class! If you see your candidate do this, you can immediately let them know.
+
+- If your candidate is struggling to form an algorithm, encourage them to explain how they would do it by hand. Afterwards help them to see what data structures might be useful.
